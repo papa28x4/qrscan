@@ -1,0 +1,16 @@
+/* Live Chat */
+
+.mylivechat_expanded_title,
+.mylivechat_collapsed,
+.mylivechat_prechat_submit_button{
+  background-color: rgb(15, 142, 110)!important;
+  border: 0px solid rgb(15, 142, 110)!important;
+}
+.mylivechat_prechat_submit_button,
+.mylivechat_offline_submit_button{
+  border: 1px solid rgb(15, 142, 110)!important;
+}
+.mylivechat_closebtn,
+.mylivechat_offline_submit_button{
+  background-color: rgb(15, 142, 110)!important;
+}

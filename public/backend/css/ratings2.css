@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', serif;
+    background: #eee
+}
+
+.content {
+    width: 420px;
+    margin-top: 100px
+}
+
+.ratings {
+    background-color: #fff;
+    padding: 54px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 10px #E0E0E0
+}
+
+.product-rating {
+    font-size: 50px
+}
+
+.stars i {
+    font-size: 18px;
+    color: #28a745
+}
+
+.rating-text {
+    margin-top: 10px
+}
+
+/* ///////////////////////////////////////////////////////////  */
+
+body {
+    background-color: #f7f6f6
+}
+
+.card {
+    width: 350px;
+    border: none;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    border-radius: 12px
+}
+
+.circle-image img {
+    border: 6px solid #fff;
+    border-radius: 100%;
+    padding: 9px;
+    top: -28px;
+    position: relative;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    z-index: 1;
+    background: #e7d184;
+    cursor: pointer
+}
+
+.help-text {
+    margin-top: -21px
+}
+
+.fw-500 {
+    font-weight: 500 !important
+}

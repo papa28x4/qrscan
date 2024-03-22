@@ -1,0 +1,17 @@
+$ curl --silent --location https://rpm.nodesource.com/setup_20.x | bash -
+$ yum -y install nodejs //I didn't run this second comment(node v20)
+
+/*
+node: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by node)
+node: /lib64/libc.so.6: version `GLIBC_2.28' not found (required by node)
+*/
+Above error is what the error looks like. Those GLIBC version are required for higher node versions
+
+nvm install 16.0.0 (ran this because amazon linux 2 supports this and not any higher)
+
+
+nvm uninstall 18.0.0 // use npm uninstall to remove any higher version mistakenly installed
+
+
+
+

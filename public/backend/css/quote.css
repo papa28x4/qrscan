@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after,
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    user-select: none;
+}
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family:'Segoe UI';
+    font-weight: 400;
+}
+
+.q-body.container{
+    min-height: 100vh;
+    position: relative;
+}
+
+.q-body .wrapper{
+    padding: 0 32px;
+}
+
+.q-body .top-header{
+    border-color: #0A9069;
+    background-color: rgb(45,143,8);
+    height: 20vh;
+    color: #fff;
+}
+
+.q-body .top-header .title{
+    font-weight: 700;
+}
+
+.q-body .segment .section{
+    margin: 32px 0 24px 0;
+}
+
+.q-body .segment .section>p{
+    color: rgb(45,143,8);
+    border-bottom: 4px solid rgb(45,143,8);
+    min-width: 270px;
+    width: 33.3%;
+    margin-bottom: 0;
+    padding-bottom: 12px;
+}
+
+.customer-info>div p{
+    display: flex;
+}
+
+.customer-info .title{
+    color: #0a224c;
+    font-weight: 600;
+    flex-basis: 33.3%;
+}
+
+.customer-info .value{
+    flex-basis: 66.6%;
+    color: rgb(140,140,140);
+}
+
+.job-info .job-table{
+    padding: 0 16px;
+}
+
+.job-info .first.col,
+.job-info .job-heading .col{
+    background-color: rgb(225,239,220);
+    color: #0a224c;
+    font-weight: 600;
+}
+
+.job-info .job-heading .first.col{
+    opacity: 0;
+}
+
+.job-info .col{
+    background-color: rgb(247,251,246);
+    color: rgb(140,140,140);
+    margin-top: 8px;
+    margin-right: 8px;
+    border-radius: 6px;
+    line-height: 200%;
+}
+
+.q-body .total{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+  border-top: 4px solid rgb(45,143,8);
+  padding-top: 16px;
+}
+
+.q-body .total .title{
+    font-weight: 600;
+}
+
+.q-body .total p{
+    background-color: rgb(45,143,8);
+    border: 1px solid rgb(45,143,8);
+    padding: 12px 30px;
+    color:#fff;
+}
+
+.q-body button{
+        background-color: rgb(45,143,8);
+        color: #fff;
+        border: 1px solid rgb(45,143,8);
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        margin: 0;
+        display: inline-block;
+        padding: 12px 30px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 400;
+}
+
+.q-body button:hover{
+    background-color: rgb(45,143,8, 0.9);
+    border: 1px solid rgb(45,143,8, 0.9);
+}
